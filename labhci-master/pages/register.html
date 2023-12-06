@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/register.css">
+    <title>VokemonS - Register</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" id = "title">VokemonS</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="pokemon.html">Pokémon</a></li>
+                <li><a href="tournament.html">Tournament</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="register-section">
+            <h2>Register for VokemonS</h2>
+            <form id="registration-form">
+                
+
+    <div class="form-group">
+        <div class="input-container">
+            <i class="fa fa-user input-icon"></i>
+            <input type="text" id="username" name="username" placeholder="Username">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-container">
+            <i class="fa fa-envelope input-icon"></i>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-container">
+            <i class="fa fa-lock input-icon"></i>
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-container">
+            <i class="fa fa-check input-icon"></i>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <i class="fa fa-chevron-down input-icon"></i>
+        </div>
+    </div>
+
+
+                <div class="form-group">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the terms and conditions</label>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 VokemonS. All rights reserved.</p>
+    </footer>
+
+    <script src="../register.js"></script>
+</body>
+</html>

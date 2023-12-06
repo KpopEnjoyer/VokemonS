@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; 
+}
+
+header {
+    background-color: #e64c4c; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #e64c4c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; 
+}
+
+#home-section {
+    text-align: center;
+}
+
+h2 {
+    color: #e64c4c; /* Pokemon Red */
+    font-size: 36px; /* Larger font size for impact */
+    margin-bottom: 20px;
+}
+
+.slogan {
+    color: #333; /* Dark gray text color */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: #4caf50; /* Green button color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#title{
+    text-decoration: none;
+    color: white;
+}
