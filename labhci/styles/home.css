@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height : 100vh;
+    font-family: 'Poppins';
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-image{
+    position: absolute;
+    width: 100%;
+    z-index: -99;
+    margin: 0;
+}
+
+nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    font-size: 48px;
+    color: #F62D13;
+    font-family: 'Irish Grover';
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.register{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 2px #F62D13;
+    transition: 0.3s;
+}
+
+.register:hover{
+    background-color: #F62D13;
+    color: white;
+    transition: 0.3s;
+}
+
+
+nav ul li a:hover{
+    color: #F62D13;
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+}
+
+.hero img{
+    width: 600px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.hero-content-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-content-subtitle{
+    font-size: 24px;
+}
+
+
+.hero-content span{
+    font-family: 'Irish Grover';
+    font-size: 56px;
+    color: #F62D13;
+    margin-left: 15px;
+}
+
+.hero-content button{
+    padding: 20px 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #EA2b1f;
+    font-family: Poppins;
+    color: white;
+    font-weight: 5000;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content button:hover{
+    background-color: #ac2016;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.hero-content button img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.next-tournament{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.next-tournament span{
+    font-family: 'Irish Grover';
+    color: #F62D13;
+}
+
+.tournament-title{
+    font-size: 48px;
+}
+
+.tournament-time{
+    font-size: 36px;
+}
+
+.next-tournament button{
+    padding: 20px 60px;
+    border: solid 2px #F62D13;
+    background-color: transparent;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.next-tournament button:hover{
+    transition: 0.3s;
+    background-color: #F62D13;
+    color: white;
+}
+
+.latest-news{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.latest-news-header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.latest-news-title{
+    font-family: 'Irish Grover';
+    color: red;
+    font-size: 40px;
+}
+
+.see-more{
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.see-more:hover > .arrow{
+    transform: translateX(7px);
+    transition: 0.3s;
+}
+
+.see-more img{
+    width: 25px;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.news{
+    background-image: url('../assets/landingImage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.news span{
+    font-size: 18px;
+    color: white;
+}
+
+.news-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 20px;
+}
+
+.news-title{
+    font-weight: 500;
+}
+
+footer{
+    height: 180px;
+    background-color: #212121;
+    margin-top: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer-left div span{
+    font-size: 20px;
+}
+
+.footer-left img{
+    width: 20px;
+}
