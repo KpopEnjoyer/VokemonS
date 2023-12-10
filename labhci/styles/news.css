@@ -71,6 +71,79 @@ nav ul li a:hover{
     transition: 0.3s;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    width: 700px;
+}
+
+.row1{
+    justify-content: space-between;
+}
+
+.row2{
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.card span{
+    font-size: 12px;
+}
+
+.card1 img{
+    width: 400px;
+}
+
+.card2 img{
+    width: 280px;
+}
+
+.card2 span{
+    font-size: 10px;
+    margin: 10px 5px 0px 5px;
+}
+
+.card3 img{
+    width: 230px;
+}
+
+.card3 span{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card4 img{
+    width: 270px;
+}
+
+.card5 img{
+    width: 140px;
+}
+
+.card5{
+    height: 180px;
+}
+
+.card5 span{
+    font-size: 10px;
+    margin: 20px 5px 0px 5px;
+}
 
 
 footer{
