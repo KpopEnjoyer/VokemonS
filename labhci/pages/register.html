@@ -23,7 +23,7 @@
     <section>
         <div class="registration-form">
             <h2>Register</h2>
-            <form action="" onsubmit="formValidation(e)">
+            <form action="" id='regis-form' onsubmit="formValidation(event)">
                 <div class="input-group">
                     <label for="name">Name</label>
                     <input type="text" placeholder="ex. Daniel Permana" id="name" name="name">
@@ -58,7 +58,7 @@
                     <input type="checkbox" id="tnc" name="tnc" value="yes">
                     <label for="tnc">I've read and accept the terms and conditions.</label>
                 </div>
-                <div class="errorLine"></div>
+                <div id="error-line">Error Line</div>
                 <button type="submit">Register</button>
             </form>
         </div>
@@ -82,6 +82,6 @@
         </div>
     </footer>
 
-    <script src="../scripts/register.js"></script>
+    <script src="../scripts/register2.js"></script>
 </body>
 </html>
