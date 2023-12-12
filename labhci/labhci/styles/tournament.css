@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height : 100vh;
+    font-family: 'Poppins';
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-image{
+    position: absolute;
+    width: 100%;
+    z-index: -99;
+    margin: 0;
+}
+
+nav{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    font-size: 48px;
+    color: #F62D13;
+    font-family: 'Irish Grover';
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.register{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 2px #F62D13;
+    transition: 0.3s;
+}
+
+.register:hover{
+    background-color: #F62D13;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #F62D13;
+    transform: scale(0.5);
+    transition: 0.3s;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font-family: 'Irish Grover';
+    font-size: 55px;
+}
+
+.tournament{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px 300px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+.tournament-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.tournament-info span{
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+section img{
+    width: 280px;
+}
+
+footer{
+    height: 180px;
+    background-color: #212121;
+    margin-top: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.footer-left div span{
+    font-size: 20px;
+}
+
+.footer-left img{
+    width: 20px;
+}
